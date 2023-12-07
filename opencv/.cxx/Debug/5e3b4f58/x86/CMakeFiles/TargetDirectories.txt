@@ -1,0 +1,3 @@
+/Users/chowis/Documents/offline AI model/ImageSegmentation/opencv/.cxx/Debug/5e3b4f58/x86/CMakeFiles/rebuild_cache.dir
+/Users/chowis/Documents/offline AI model/ImageSegmentation/opencv/.cxx/Debug/5e3b4f58/x86/CMakeFiles/edit_cache.dir
+/Users/chowis/Documents/offline AI model/ImageSegmentation/opencv/.cxx/Debug/5e3b4f58/x86/CMakeFiles/opencv_jni_shared.dir

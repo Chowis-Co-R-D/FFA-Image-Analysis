@@ -1,0 +1,39 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "E:\\GitHub_Clones\\android-demo-app\\ImageSegmentation\\opencv\\libcxx_helper\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\androidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "E:\\GitHub_Clones\\android-demo-app\\ImageSegmentation\\opencv\\.cxx\\Debug\\6vh6o3v5\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\androidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "E:\\GitHub_Clones\\android-demo-app\\ImageSegmentation\\opencv\\.cxx\\Debug\\6vh6o3v5\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opencv_jni_shared-Debug-x86": {
+      "buildCommandComponents": [
+        "C:\\androidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\GitHub_Clones\\android-demo-app\\ImageSegmentation\\opencv\\.cxx\\Debug\\6vh6o3v5\\x86",
+        "opencv_jni_shared"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "opencv_jni_shared",
+      "output": "E:\\GitHub_Clones\\android-demo-app\\ImageSegmentation\\opencv\\.cxx\\Debug\\6vh6o3v5\\x86\\libopencv_jni_shared.a"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

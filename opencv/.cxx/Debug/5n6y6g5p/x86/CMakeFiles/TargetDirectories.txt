@@ -1,0 +1,3 @@
+/Users/chowis/Documents/offline AI model/ImageSegmentation_khw_refactor_2/ImageSegmentation_khw_refactor_0403/opencv/.cxx/Debug/5n6y6g5p/x86/CMakeFiles/rebuild_cache.dir
+/Users/chowis/Documents/offline AI model/ImageSegmentation_khw_refactor_2/ImageSegmentation_khw_refactor_0403/opencv/.cxx/Debug/5n6y6g5p/x86/CMakeFiles/edit_cache.dir
+/Users/chowis/Documents/offline AI model/ImageSegmentation_khw_refactor_2/ImageSegmentation_khw_refactor_0403/opencv/.cxx/Debug/5n6y6g5p/x86/CMakeFiles/opencv_jni_shared.dir

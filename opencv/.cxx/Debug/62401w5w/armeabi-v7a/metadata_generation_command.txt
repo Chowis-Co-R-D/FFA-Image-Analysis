@@ -1,0 +1,24 @@
+                    Executable : C:\androidSDK\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HE:\Demo APPs\FFA Local AI Android APP\FFA Local APP\opencv\libcxx_helper
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=28
+-DANDROID_PLATFORM=android-28
+-DANDROID_ABI=armeabi-v7a
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DANDROID_NDK=C:\androidSDK\ndk\21.4.7075529
+-DCMAKE_ANDROID_NDK=C:\androidSDK\ndk\21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=C:\androidSDK\ndk\21.4.7075529\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\androidSDK\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\Demo APPs\FFA Local AI Android APP\FFA Local APP\opencv\build\intermediates\cxx\Debug\62401w5w\obj\armeabi-v7a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=E:\Demo APPs\FFA Local AI Android APP\FFA Local APP\opencv\build\intermediates\cxx\Debug\62401w5w\obj\armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-BE:\Demo APPs\FFA Local AI Android APP\FFA Local APP\opencv\.cxx\Debug\62401w5w\armeabi-v7a
+-GNinja
+-DANDROID_STL=c++_shared
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

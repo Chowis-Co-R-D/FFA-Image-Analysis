@@ -1,0 +1,39 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/libcxx_helper/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/user/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/.cxx/Debug/1q1sh1i1/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/user/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/.cxx/Debug/1q1sh1i1/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opencv_jni_shared-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/Users/user/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/.cxx/Debug/1q1sh1i1/armeabi-v7a",
+        "opencv_jni_shared"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "opencv_jni_shared",
+      "output": "/Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/.cxx/Debug/1q1sh1i1/armeabi-v7a/libopencv_jni_shared.a"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

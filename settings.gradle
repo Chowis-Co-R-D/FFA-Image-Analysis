@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = "FFA Image Analysis"
+include ':opencv'
+include ':ffa-image-analysis'

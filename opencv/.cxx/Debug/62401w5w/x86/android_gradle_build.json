@@ -1,0 +1,39 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "E:\\Demo APPs\\FFA Local AI Android APP\\FFA Local APP\\opencv\\libcxx_helper\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\androidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "E:\\Demo APPs\\FFA Local AI Android APP\\FFA Local APP\\opencv\\.cxx\\Debug\\62401w5w\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\androidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "E:\\Demo APPs\\FFA Local AI Android APP\\FFA Local APP\\opencv\\.cxx\\Debug\\62401w5w\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opencv_jni_shared-Debug-x86": {
+      "buildCommandComponents": [
+        "C:\\androidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\Demo APPs\\FFA Local AI Android APP\\FFA Local APP\\opencv\\.cxx\\Debug\\62401w5w\\x86",
+        "opencv_jni_shared"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "opencv_jni_shared",
+      "output": "E:\\Demo APPs\\FFA Local AI Android APP\\FFA Local APP\\opencv\\.cxx\\Debug\\62401w5w\\x86\\libopencv_jni_shared.a"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

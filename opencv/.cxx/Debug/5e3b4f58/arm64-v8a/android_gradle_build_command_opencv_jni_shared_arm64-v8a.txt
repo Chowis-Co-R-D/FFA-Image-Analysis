@@ -1,0 +1,7 @@
+Executable : /Users/chowis/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/chowis/Documents/offline AI model/ImageSegmentation/opencv/.cxx/Debug/5e3b4f58/arm64-v8a
+opencv_jni_shared
+jvmArgs : 
+

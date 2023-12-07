@@ -1,0 +1,24 @@
+                    Executable : /Users/chowis/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/Users/chowis/Documents/offline AI model/ImageSegmentation_khw_refactor_2/ImageSegmentation_khw_refactor_0403/opencv/libcxx_helper
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=28
+-DANDROID_PLATFORM=android-28
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=/Users/chowis/Library/Android/sdk/ndk/21.4.7075529
+-DCMAKE_ANDROID_NDK=/Users/chowis/Library/Android/sdk/ndk/21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=/Users/chowis/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/chowis/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/chowis/Documents/offline AI model/ImageSegmentation_khw_refactor_2/ImageSegmentation_khw_refactor_0403/opencv/build/intermediates/cxx/Debug/5n6y6g5p/obj/x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/chowis/Documents/offline AI model/ImageSegmentation_khw_refactor_2/ImageSegmentation_khw_refactor_0403/opencv/build/intermediates/cxx/Debug/5n6y6g5p/obj/x86
+-DCMAKE_BUILD_TYPE=Debug
+-B/Users/chowis/Documents/offline AI model/ImageSegmentation_khw_refactor_2/ImageSegmentation_khw_refactor_0403/opencv/.cxx/Debug/5n6y6g5p/x86
+-GNinja
+-DANDROID_STL=c++_shared
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

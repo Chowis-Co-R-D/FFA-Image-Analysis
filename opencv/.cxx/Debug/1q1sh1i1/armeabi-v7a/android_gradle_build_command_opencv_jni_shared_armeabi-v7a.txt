@@ -1,0 +1,7 @@
+Executable : /Users/user/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/.cxx/Debug/1q1sh1i1/armeabi-v7a
+opencv_jni_shared
+jvmArgs : 
+

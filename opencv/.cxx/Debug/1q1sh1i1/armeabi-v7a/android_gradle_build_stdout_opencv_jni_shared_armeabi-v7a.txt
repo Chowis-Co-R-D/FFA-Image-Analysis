@@ -1,0 +1,2 @@
+ninja: Entering directory `/Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/.cxx/Debug/1q1sh1i1/armeabi-v7a'
+ninja: no work to do.

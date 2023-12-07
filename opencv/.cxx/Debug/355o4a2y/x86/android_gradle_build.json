@@ -1,0 +1,39 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Users/chowis/Documents/offline AI model/ImageSegmentation_khw_refactor_2/ImageSegmentation_khw_refactor/opencv/libcxx_helper/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/chowis/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/chowis/Documents/offline AI model/ImageSegmentation_khw_refactor_2/ImageSegmentation_khw_refactor/opencv/.cxx/Debug/355o4a2y/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/chowis/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/chowis/Documents/offline AI model/ImageSegmentation_khw_refactor_2/ImageSegmentation_khw_refactor/opencv/.cxx/Debug/355o4a2y/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opencv_jni_shared-Debug-x86": {
+      "buildCommandComponents": [
+        "/Users/chowis/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/chowis/Documents/offline AI model/ImageSegmentation_khw_refactor_2/ImageSegmentation_khw_refactor/opencv/.cxx/Debug/355o4a2y/x86",
+        "opencv_jni_shared"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "opencv_jni_shared",
+      "output": "/Users/chowis/Documents/offline AI model/ImageSegmentation_khw_refactor_2/ImageSegmentation_khw_refactor/opencv/.cxx/Debug/355o4a2y/x86/libopencv_jni_shared.a"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

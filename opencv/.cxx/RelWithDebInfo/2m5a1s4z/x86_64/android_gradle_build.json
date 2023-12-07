@@ -1,0 +1,39 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "E:\\GitHub_Clones\\android-demo-app\\ImageSegmentation\\opencv\\libcxx_helper\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\androidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "E:\\GitHub_Clones\\android-demo-app\\ImageSegmentation\\opencv\\.cxx\\RelWithDebInfo\\2m5a1s4z\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\androidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "E:\\GitHub_Clones\\android-demo-app\\ImageSegmentation\\opencv\\.cxx\\RelWithDebInfo\\2m5a1s4z\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opencv_jni_shared-RelWithDebInfo-x86_64": {
+      "buildCommandComponents": [
+        "C:\\androidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\GitHub_Clones\\android-demo-app\\ImageSegmentation\\opencv\\.cxx\\RelWithDebInfo\\2m5a1s4z\\x86_64",
+        "opencv_jni_shared"
+      ],
+      "buildType": "release",
+      "abi": "x86_64",
+      "artifactName": "opencv_jni_shared",
+      "output": "E:\\GitHub_Clones\\android-demo-app\\ImageSegmentation\\opencv\\.cxx\\RelWithDebInfo\\2m5a1s4z\\x86_64\\libopencv_jni_shared.a"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

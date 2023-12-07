@@ -1,0 +1,7 @@
+Executable : C:\androidSDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+E:\Demo APPs\FFA Local AI Android APP\FFA Local APP\opencv\.cxx\Debug\62401w5w\arm64-v8a
+opencv_jni_shared
+jvmArgs : 
+

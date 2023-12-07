@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/libcxx_helper/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/user/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/.cxx/Debug/2p33275k/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/user/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/.cxx/Debug/2p33275k/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opencv_jni_shared::@6890427a1f51a3e7e1df": {
+      "artifactName": "opencv_jni_shared",
+      "abi": "x86",
+      "output": "/Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/.cxx/Debug/2p33275k/x86/libopencv_jni_shared.a",
+      "runtimeFiles": []
+    }
+  }
+}

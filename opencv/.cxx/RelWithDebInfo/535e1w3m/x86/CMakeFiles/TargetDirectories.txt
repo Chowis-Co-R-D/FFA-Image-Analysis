@@ -1,0 +1,3 @@
+/Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/.cxx/RelWithDebInfo/535e1w3m/x86/CMakeFiles/rebuild_cache.dir
+/Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/.cxx/RelWithDebInfo/535e1w3m/x86/CMakeFiles/edit_cache.dir
+/Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/.cxx/RelWithDebInfo/535e1w3m/x86/CMakeFiles/opencv_jni_shared.dir

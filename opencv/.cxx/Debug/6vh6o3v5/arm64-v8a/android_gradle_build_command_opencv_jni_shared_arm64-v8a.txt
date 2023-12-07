@@ -1,0 +1,7 @@
+Executable : C:\androidSDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+E:\GitHub_Clones\android-demo-app\ImageSegmentation\opencv\.cxx\Debug\6vh6o3v5\arm64-v8a
+opencv_jni_shared
+jvmArgs : 
+

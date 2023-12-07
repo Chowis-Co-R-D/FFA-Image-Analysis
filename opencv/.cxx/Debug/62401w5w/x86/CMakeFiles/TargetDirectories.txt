@@ -1,0 +1,3 @@
+E:/Demo APPs/FFA Local AI Android APP/FFA Local APP/opencv/.cxx/Debug/62401w5w/x86/CMakeFiles/opencv_jni_shared.dir
+E:/Demo APPs/FFA Local AI Android APP/FFA Local APP/opencv/.cxx/Debug/62401w5w/x86/CMakeFiles/edit_cache.dir
+E:/Demo APPs/FFA Local AI Android APP/FFA Local APP/opencv/.cxx/Debug/62401w5w/x86/CMakeFiles/rebuild_cache.dir

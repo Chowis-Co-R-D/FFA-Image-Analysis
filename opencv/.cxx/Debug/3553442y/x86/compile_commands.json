@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/GitHub_Clones/android-demo-app/ImageSegmentation_khw_refactor/ImageSegmentation_khw_refactor/opencv/.cxx/Debug/3553442y/x86",
+  "command": "C:\\androidSDK\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android28 --gcc-toolchain=C:/androidSDK/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/androidSDK/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\opencv_jni_shared.dir\\dummy.cpp.o -c E:\\GitHub_Clones\\android-demo-app\\ImageSegmentation_khw_refactor\\ImageSegmentation_khw_refactor\\opencv\\libcxx_helper\\dummy.cpp",
+  "file": "E:\\GitHub_Clones\\android-demo-app\\ImageSegmentation_khw_refactor\\ImageSegmentation_khw_refactor\\opencv\\libcxx_helper\\dummy.cpp"
+}
+]

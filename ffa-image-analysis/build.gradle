@@ -1,0 +1,102 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
+}
+
+android {
+    namespace 'com.chowis.ffa_image_analysis'
+    compileSdk 33
+
+    lintOptions {
+        abortOnError false
+    }
+
+
+    defaultConfig {
+        minSdk 28
+        targetSdk 33
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    // added by Shu Li.
+    packagingOptions {
+        pickFirst 'lib/arm64-v8a/libfbjni.so'
+        pickFirst 'lib/armeabi-v7a/libfbjni.so'
+        pickFirst 'lib/x86/libfbjni.so'
+        pickFirst 'lib/x86_64/libfbjni.so'
+        //pickFirst 'lib/arm64-v8a/libpytorch_jni.so'
+        //pickFirst 'lib/armeabi-v7a/libpytorch_jni.so'
+        //pickFirst 'lib/x86/libpytorch_jni.so'
+        //pickFirst 'lib/x86_64/libpytorch_jni.so'
+        pickFirst 'lib/arm64-v8a/libpytorch_jni_lite.so'
+        pickFirst 'lib/armeabi-v7a/libpytorch_jni_lite.so'
+        pickFirst 'lib/x86/libpytorch_jni_lite.so'
+        pickFirst 'lib/x86_64/libpytorch_jni_lite.so'
+        pickFirst 'lib/armeabi-v7a/libc++_shared.so'
+        pickFirst 'lib/arm64-v8a/libc++_shared.so'
+        pickFirst 'lib/x86/libc++_shared.so'
+        pickFirst 'lib/x86_64/libc++_shared.so'
+        //exclude 'META-INF/native-image/**'
+    }
+
+
+
+}
+
+dependencies {
+
+
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.6.0'
+    implementation project(path: ':opencv')
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation 'org.pytorch:pytorch_android_lite:1.13.0'
+    implementation 'org.pytorch:pytorch_android_torchvision_lite:1.13.0'
+    implementation 'org.pytorch:torchvision_ops:0.14.0'
+
+    implementation 'com.facebook.fbjni:fbjni-java-only:0.0.3'
+    implementation 'com.facebook.soloader:soloader:0.10.5+'
+    implementation 'com.facebook.soloader:nativeloader:0.8.0'
+
+
+    implementation 'com.google.mediapipe:tasks-vision:0.10.0'
+
+    implementation "org.tensorflow:tensorflow-lite:2.14.0"
+
+}
+
+
+task deleteJar(type: Delete){
+    delete 'libs/ffa_image_analysis.jar'
+}
+
+task createJar(type: Copy){
+    from("build/intermediates/aar_main_jar/release/")
+//    from('build/intermediates/bundles/release/')
+    into("libs")
+    include("classes.jar")
+    rename ("classes.jar", "ffa-image-analysis.jar")
+}
+createJar.dependsOn(deleteJar, build)

@@ -1,0 +1,4 @@
+/Users/user/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  "/Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/.cxx/Debug/2p33275k/x86_64" \
+  opencv_jni_shared

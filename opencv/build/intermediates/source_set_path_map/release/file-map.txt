@@ -1,0 +1,8 @@
+org.opencv-pngs-0 /Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/build/generated/res/pngs/release
+org.opencv-resValues-1 /Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/build/generated/res/resValues/release
+org.opencv-rs-2 /Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/build/generated/res/rs/release
+org.opencv-mergeReleaseResources-3 /Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+org.opencv-mergeReleaseResources-4 /Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+org.opencv-merged_res-5 /Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/build/intermediates/merged_res/release
+org.opencv-java-6 /Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/java/res
+org.opencv-release-7 /Volumes/My Files/Projects/Android_Projects/Chowis/FFA Local APP/opencv/src/release/res
